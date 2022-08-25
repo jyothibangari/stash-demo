@@ -7,9 +7,10 @@ on:
     # - 'README.md'
     # - 'Scripts/**.txt'
     #  - '**.txt'
-    branches: [ "include-files" ]
+    branches: [ "allowed-file" ]
     paths: 
-      - '.github/workflows/**.yml'
+      - '**.yml'
+      - '**.txt'
        
  # pull_request:
   #  branches: [ "main" ]
