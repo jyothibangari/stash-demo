@@ -1,1 +1,2 @@
 in stash branch
+changes into allowed-file
