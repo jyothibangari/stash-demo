@@ -2,11 +2,15 @@ name: MSBuild
 
 on:
   push:
-    branches: [ "exclude-files" ]
-    paths-ignore: 
-      - 'README.md'
-      - 'Scripts/**.txt'
-      - '**.txt'
+    #branches: [ "exclude-files" ]
+    #paths-ignore: 
+    # - 'README.md'
+    # - 'Scripts/**.txt'
+    #  - '**.txt'
+    branches: [ "include-files" ]
+    paths: 
+      - '.github/workflows/**.yml'
+       
  # pull_request:
   #  branches: [ "main" ]
 
