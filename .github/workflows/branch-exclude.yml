@@ -6,6 +6,7 @@ on:
     branches-ignore: 
       - 'branch1'
       - 'exclude-file'
+      - 'include-file'
      
  # pull_request:
   #  branches: [ "main" ]
