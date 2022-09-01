@@ -4,7 +4,7 @@ on:
   push:
    # branches: [ "branch1" ]
     branches-ignore: 
-      - 'allowed-file'
+      - 'branch1'
       - 'exclude-file'
      
  # pull_request:
